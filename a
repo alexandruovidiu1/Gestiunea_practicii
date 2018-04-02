@@ -1,0 +1,25 @@
+[1mdiff --git a/Gestiunea_Practicii/Gestiunea_Practicii.csproj b/Gestiunea_Practicii/Gestiunea_Practicii.csproj[m
+[1mindex e6b775f..64c588f 100644[m
+[1m--- a/Gestiunea_Practicii/Gestiunea_Practicii.csproj[m
+[1m+++ b/Gestiunea_Practicii/Gestiunea_Practicii.csproj[m
+[36m@@ -240,6 +240,12 @@[m
+     <Compile Include="Global.asax.cs">[m
+       <DependentUpon>Global.asax</DependentUpon>[m
+     </Compile>[m
+[32m+[m[32m    <Compile Include="Masterpage.aspx.cs">[m
+[32m+[m[32m      <DependentUpon>Masterpage.aspx</DependentUpon>[m
+[32m+[m[32m    </Compile>[m
+[32m+[m[32m    <Compile Include="Masterpage.aspx.designer.cs">[m
+[32m+[m[32m      <DependentUpon>Masterpage.aspx</DependentUpon>[m
+[32m+[m[32m    </Compile>[m
+     <Compile Include="Models\AccountBindingModels.cs" />[m
+     <Compile Include="Models\AccountViewModels.cs" />[m
+     <Compile Include="Models\IdentityModels.cs" />[m
+[36m@@ -255,6 +261,7 @@[m
+     <Content Include="favicon.ico" />[m
+     <Content Include="fonts\glyphicons-halflings-regular.svg" />[m
+     <Content Include="Global.asax" />[m
+[32m+[m[32m    <Content Include="Masterpage.aspx" />[m
+     <Content Include="Scripts\ai.0.22.9-build00167.js" />[m
+     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />[m
+     <Content Include="Scripts\bootstrap.js" />[m

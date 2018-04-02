@@ -35,7 +35,8 @@ pentru recunoașterea stagiului de practică
 
 
         <asp:Label ID="Label4" runat="server" Text="la
-UNIVERSITATEA DIN BUCUREŞTI, FACULTATEA DE MATEMATICĂ ȘI INFORMATICĂ, "></asp:Label>
+UNIVERSITATEA DIN BUCUREŞTI, FACULTATEA DE MATEMATICĂ ȘI INFORMATICĂ, 
+"></asp:Label>
       <asp:TextBox runat="server"></asp:TextBox>
     <br />
 
